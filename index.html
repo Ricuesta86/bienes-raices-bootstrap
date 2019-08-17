@@ -14,11 +14,34 @@
 </head>
 <body>
     <!-- Navegación -->
-    <div class="navbar bg-dark navbar-dark navbar-expand-md">
+    <div class="navbar bg-success navbar-dark navbar-expand-md">
         <a href="#" class="navbar-brand">RealState<span>GDL</span></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar Navegación">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav w-100 justify-content-end">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="anuncioDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Anuncio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="anuncioDropdown">
+                        <a href="#" class="dropdown-item">Casa 1</a>
+                        <a href="#" class="dropdown-item">Casa 2</a>
+                        <a href="#" class="dropdown-item">Casa 3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <!-- Slider Carousel -->
