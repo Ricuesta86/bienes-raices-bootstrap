@@ -5,7 +5,9 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
+h1,h2,h3,h4{
+    font-weight: 300;
+}
 .bg-success{
     background-color: #71b100 !important;
 }
@@ -22,5 +24,51 @@ body {
         z-index: 100;
         width: 100%;
     }
+}
+/* Logo */
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.navbar-brand span{
+    font-weight: 900;
+}
 
+/* Navegación */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+/* Dropdown */
+.dropdown-menu{
+    background-color: #71b100;
+}
+.dropdown-menu:hover{
+
+}
+.dropdown-menu .dropdown-item{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #e08709;
+}
+
+/* Carousel */
+
+.carousel-caption h3{
+    font-size: 2.4rem;
+}
+
+.bloque-info p{
+    font-size: 1.4rem;
+}
+.bloque-info .btn-warning{
+    background-color: #e08709;
+    color: #ffffff;
+    border-color: #e08709;
+    font-weight: 700;
 }
