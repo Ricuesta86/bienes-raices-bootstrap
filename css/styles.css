@@ -46,9 +46,6 @@ h1,h2,h3,h4{
 .dropdown-menu{
     background-color: #71b100;
 }
-.dropdown-menu:hover{
-
-}
 .dropdown-menu .dropdown-item{
     color: #ffffff;
     text-transform: uppercase;
