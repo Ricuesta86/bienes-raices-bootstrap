@@ -90,3 +90,19 @@ h1,h2,h3,h4{
 .card-descripcion img{
     margin-right: .5rem;
 }
+/* Contactanos */
+
+.contactanos{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactanos .row{
+    height: 25rem;
+}
+
+.contactanos h3{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
