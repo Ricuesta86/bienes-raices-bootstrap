@@ -154,3 +154,12 @@ h1,h2,h3,h4{
     font-weight: 900;
     font-size: 1.4rem;
 }
+/* footer */
+
+.footer.bg-dark{
+    background-color: #333333!important;
+}
+.footer .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+}
